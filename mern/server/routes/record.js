@@ -80,5 +80,4 @@ router.delete("/:id", async (req, res) => {
     res.status(500).send("Error deleting record");
   }
 });
-
 export default router;
